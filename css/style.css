@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 2011px;
+}
+@font-family: 'Roboto', sans-serif;
+/*------навигация------*/
+header{
+width: 100%;
+position: fixed;
+background: #007765;
+}
+
+nav{
+   max-width: 1219px;
+   padding: 0 0 0 0px;
+   margin: 0 auto;
+   overflow: hidden; /* управляет отображением содержания блочного элемента */
+   box-sizing: border-box; /* изменения алгоритма расчёта ширины и высоты элемента */
+}
+
+nav img{
+    padding: 20px 0px 19px 55px;
+    margin: 0px;
+}
+
+nav ul{
+    padding:28px 55px 28px 0px;
+    float: right;
+}
+
+nav li{
+    display: inline-block;
+    padding: 0 6px 0 6px;
+    border-left: 2px solid white; /* вертикальна черта в навигации */
+
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    font-size: 24px;
+
+}
+/* уберает первую вертикальную черточку в навигации */
+nav li:first-child { /* находит любой элемент, являющийся первым в своём родителе */
+border:none;
+}
+
+/* блок фонового изображения с текстом */
+.pipernet{
+padding-top: 84px;
+background: url(../img/piper-net.png);
+background-size: cover; /* масштабирует фоновое изображение согласно заданным размерам */
+background-position: center; /* устанавливает начальную позицию фонового изображения */
+}
+
+.pipernet .container{
+max-width: 1219px;
+box-sizing: border-box;
+padding: 160px 55px 160px 55px;
+margin: 0 auto;
+}
+
+.pipernet .container span{
+font-family: Roboto;
+font-style: normal; /* определяющее каким образом шрифт должен быть стилизирован */
+font-weight: 500; /* устанавливает начертание шрифта */
+font-size: 72px;
+line-height: 84px; /* ? */
+color: white;
+text-align: center;
+display: block;
+}
+
+/* блок с текстом */
+.block .container{
+max-width: 1219px;
+padding: 48px 55px 92px 55px;
+box-sizing: border-box;
+margin: 0 auto;
+}
+.block{
+background: #EEEEEE;
+}
+.block p{
+    margin-top: 1em;
+}
+
+.block h1 a{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+color: #007765;
+text-decoration: none;
+text-align: center;
+display: block;
+}
+
+.block p{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 37px;
+color: #000000;
+}
+
+.block p span{
+font-weight: bold;
+}
+
+/* блок с фоновым изображением и текстом */
+.message{
+background: url(../img/message.png);
+background-size: cover; /* масштабирует фоновое изображение согласно заданным размерам */
+background-position: center; /* устанавливает начальную позицию фонового изображения */
+}
+.message .container{
+max-width: 1219px;
+padding: 128px 15% 127px 15%;
+box-sizing: border-box;
+margin: 0 auto;
+}
+
+.message .container span{
+font-family: Roboto, sans-serif;
+font-style: italic;
+font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+color: white;
+display: block;
+}
+
+/* блог текст с изображением */
+.message-coin{
+    background: white;
+}
+
+.message-coin .container{
+    max-width: 1219px;
+    padding: 48px 55px 92px 55px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.message-coin h1 a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    color: #007765;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    }
+    
+.item img{
+        padding: 0px 48px 35px 0px;
+        float: left;
+    
+}
+.item p{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 37px;
+        color: black;       
+}
+
+.message-coin p{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 37px;
+color: black;
+}
+.message-coin .container > p {
+    margin-top: 40px;
+}
+
+/* блок  team фото и подписи */
+.team{
+    background: #EEEEEE;
+}
+.team .container{
+    max-width: 1219px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.team .container h1 a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+    text-decoration: none;
+    display: block;
+}
+
+.team h3{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+color: #007765;
+}
+.team span{
+font-family: Roboto;
+font-style: italic;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: black;
+}
+
+.responsive{
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 0px 45px 100px 143px;
+}
+.responsive-text{
+    text-align: center;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* подвал */
+
+footer{
+ 
+    background: #333333;
+}
+
+footer .container{ 
+    max-width: 1219px;
+    padding: 48px 28% 64px 28%;
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+}
+footer .container span{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+display: block;
+color: white;
+}
+
+#method-B:before {
+    display: block;
+    content: "";
+    height: 50px;
+    margin: -50px 0 0;
+}
+
+
+@media only screen and (min-width: 1219px) {
+  footer .container {
+    padding: 48px 340px 64px 340px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  footer .container {
+    padding: 48px 28% 64px 28%;
+ }
+}
