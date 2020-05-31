@@ -231,7 +231,7 @@ color: black;
 
 .responsive{
     float: left;
-    text-align: center;
+    /*text-align: center;*/
     margin: 0 auto;
     display: block;
     padding: 0px 45px 100px 143px;
