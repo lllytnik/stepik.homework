@@ -252,6 +252,17 @@ font-size: 18px;
 line-height: 21px;
 color: black;
 }
+<<<<<<< HEAD
+=======
+
+.responsive{
+    float: left;
+    /*text-align: center;*/
+    margin: 0 auto;
+    display: block;
+    padding: 0px 45px 100px 143px;
+}
+>>>>>>> b5aefefda945b1343d8a80489e7f077b3f9669c0
 .responsive-text{
     text-align: center;
 }
