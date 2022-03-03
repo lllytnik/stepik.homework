@@ -196,16 +196,16 @@ color: black;
 }
 .team .container{
     max-width: 1219px;
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0px 55px 0px 55px;
-    display: block;
     text-align: center;
 }
-.container__grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    
+   
 
 .responsive{
     float: left;
