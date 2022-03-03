@@ -202,7 +202,10 @@ color: black;
     display: block;
     text-align: center;
 }
-
+.container__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
 
 .responsive{
     float: left;
